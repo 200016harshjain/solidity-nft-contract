@@ -55,6 +55,7 @@ contract sampleNFT is ERC721 {
         
         _burn(tokenId);
         // I don't think we should do tokencounter-- 
+        //will have to refactor a bit, maybe store the tokenId of burnt NFTs so users can get a message that NFT is burnt when they try to view it's data.
 
 
       
